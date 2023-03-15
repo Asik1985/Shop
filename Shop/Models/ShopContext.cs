@@ -9,9 +9,9 @@ public ShopContext(DbContextOptions<ShopContext> options) : base(options)
         {
         
         }
-        public DbSet<Product> Products { get; set;}
-        public DbSet<Category> Categories { get; set;}
-        public DbSet<Brand> Brands { get; set;}
+        public DbSet<Products> Products { get; set;}
+        public DbSet<Categories> Categories { get; set;}
+        public DbSet<Brands> Brands { get; set;}
 
 
     }
